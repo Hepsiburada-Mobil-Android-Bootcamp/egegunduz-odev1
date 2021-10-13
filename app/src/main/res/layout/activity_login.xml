@@ -10,7 +10,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:background="@color/loginBG">
 
                 <ImageView
@@ -33,7 +34,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_8sdp"
                     android:layout_marginHorizontal="@dimen/_32sdp"
-                    android:paddingVertical="@dimen/_14sdp"
+                    android:paddingVertical="@dimen/_2sdp"
                     android:paddingLeft="@dimen/_10sdp"
                     android:background="@drawable/rounded_edit_text"
                     android:drawableStart="@drawable/ic_person"
@@ -54,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_8sdp"
                     android:layout_marginHorizontal="@dimen/_32sdp"
-                    android:paddingVertical="@dimen/_14sdp"
+                    android:paddingVertical="@dimen/_2sdp"
                     android:background="@drawable/rounded_edit_text"
                     android:drawableStart="@drawable/ic_lock"
                     android:drawablePadding="@dimen/_10sdp"
@@ -106,6 +107,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_20sdp"
                     android:text="@string/dont_have_account"
+                    android:layout_marginTop="@dimen/_16sdp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     android:fontFamily="@font/poppins"
                     android:textFontWeight="400"
