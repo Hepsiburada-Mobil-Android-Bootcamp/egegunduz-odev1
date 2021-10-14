@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/bg_login_button.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/bg_profile_edit_text.xml" value="0.3828125" />
+        <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/gradient.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/ic_back.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/ic_bacl.xml" value="0.24427083333333333" />
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/ic_lock.xml" value="0.2953125" />
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/ic_login_bg.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/ic_login_button.xml" value="0.22135416666666666" />
@@ -13,7 +17,8 @@
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/img_login_playing.xml" value="0.33" />
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/drawable/rounded_edit_text.xml" value="0.21770833333333334" />
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/font/poppins.xml" value="0.309375" />
-        <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/layout/activity_home.xml" value="0.38253275109170304" />
+        <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/layout/activity_login.xml" value="0.228125" />
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/Ege/Desktop/Hepsiburada/Ege_Odev1/app/src/main/res/layout/activity_main3.xml" value="0.20520833333333333" />
@@ -23,7 +28,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
