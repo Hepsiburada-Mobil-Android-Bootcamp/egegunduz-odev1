@@ -11,4 +11,7 @@
     <color name="loginBG">#E5E5E5</color>
     <color name="loginHint">#37474F</color>
     <color name="loginText">#78909C</color>
+    <color name="profileGreen">#0EBE7F</color>
+    <color name="profileTitle">#333333</color>
+    <color name="profileInput">#677294</color>
 </resources>
