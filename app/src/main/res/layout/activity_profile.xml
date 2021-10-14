@@ -36,6 +36,8 @@
                 android:textColor="@color/white"
                 android:textSize="@dimen/_18ssp"
                 android:layout_marginBottom="@dimen/_1sdp"
+                android:fontFamily="@font/rubik"
+                android:textFontWeight="700"
                 tools:text="Profile" />
 
             <TextView
@@ -45,6 +47,8 @@
                 android:layout_marginVertical="@dimen/_4sdp"
                 android:gravity="center_horizontal"
                 android:text="@string/set_up_profile"
+                android:fontFamily="@font/rubik"
+                android:textFontWeight="500"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_16ssp"
                 tools:text="Set up your profile " />
@@ -52,12 +56,14 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_40sdp"
-                android:layout_marginEnd="@dimen/_40sdp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_32sdp"
+                android:layout_marginEnd="@dimen/_32sdp"
                 android:gravity="center_horizontal"
                 android:singleLine="false"
                 android:text="@string/update_text"
+                android:fontFamily="@font/rubik"
+                android:textFontWeight="400"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_14ssp" />
@@ -85,7 +91,7 @@
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
-        android:translationY="@dimen/_minus20sdp"
+        android:translationY="@dimen/_minus16sdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -100,7 +106,10 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/_6sdp"
             android:textColor="@color/profileTitle"
-            android:text="@string/personal_info"/>
+            android:text="@string/personal_info"
+            android:fontFamily="@font/rubik"
+            android:textFontWeight="500"
+            android:textSize="@dimen/_18ssp"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -122,6 +131,9 @@
                 android:layout_height="wrap_content"
                 android:lines="1"
                 android:textColor="@color/profileInput"
+                android:fontFamily="@font/rubik"
+                android:textSize="@dimen/_16ssp"
+                android:textFontWeight="300"
                 android:paddingVertical="@dimen/_12sdp"/>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -145,6 +157,9 @@
                 android:layout_height="wrap_content"
                 android:lines="1"
                 android:textColor="@color/profileInput"
+                android:fontFamily="@font/rubik"
+                android:textSize="@dimen/_16ssp"
+                android:textFontWeight="300"
                 android:paddingVertical="@dimen/_12sdp"
                 android:drawableRight="@drawable/ic_pencil"
                 android:drawablePadding="@dimen/_12sdp"/>
@@ -169,11 +184,14 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:lines="1"
-                android:textColor="@color/profileInput"
-                android:paddingVertical="@dimen/_12sdp"
                 android:drawableRight="@drawable/ic_pencil"
-                android:drawablePadding="@dimen/_12sdp"/>
+                android:drawablePadding="@dimen/_12sdp"
+                android:fontFamily="@font/rubik"
+                android:textSize="@dimen/_16ssp"
+                android:textFontWeight="300"
+                android:lines="1"
+                android:paddingVertical="@dimen/_12sdp"
+                android:textColor="@color/profileInput" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -197,6 +215,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/profileInput"
+                android:fontFamily="@font/rubik"
+                android:textSize="@dimen/_16ssp"
+                android:layout_weight="300"
                 android:lines="1"
                 android:paddingVertical="@dimen/_12sdp"/>
 
@@ -207,15 +228,18 @@
             android:id="@+id/card_view_continue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_10sdp"
             app:cardBackgroundColor="@color/profileGreen"
             app:cardCornerRadius="@dimen/_10sdp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingHorizontal="@dimen/_92sdp"
+                android:paddingHorizontal="@dimen/_76sdp"
                 android:paddingVertical="@dimen/_8sdp"
+                android:fontFamily="@font/rubik"
+                android:textFontWeight="500"
+                android:textSize="@dimen/_18ssp"
+                android:textColor="@color/white"
                 android:text="Continue" />
         </androidx.cardview.widget.CardView>
 
