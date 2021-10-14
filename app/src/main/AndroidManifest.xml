@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Ege_Odev1">
         <activity
             android:name=".HomeActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Home"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
