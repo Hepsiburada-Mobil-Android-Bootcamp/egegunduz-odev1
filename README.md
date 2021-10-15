@@ -1,6 +1,6 @@
 # Assignment 1
 
-### Includes two scren design and a usage example of LiveData.
+### Includes two screen designs and a usage example of LiveData.
 
 * The app launches with the first design (login screen).
 * To reach the second design (profile screen), user should press the "Login" button.
