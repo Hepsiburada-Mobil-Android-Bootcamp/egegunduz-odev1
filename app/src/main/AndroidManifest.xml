@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ege_Odev1">
         <activity
+            android:name=".ForgotActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false"
-            android:theme="@style/Theme.Home"/>
+            android:theme="@style/Theme.Home" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
